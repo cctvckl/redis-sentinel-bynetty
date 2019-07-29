@@ -18,3 +18,6 @@ redis-cli.exe -h localhost -p 8080
 1、set key value
 
 2、get key
+
+
+要实现redis-sentinel，首先要了解它，这里先推荐一本书，redis设计与实现，比较详细。另外，可以本地虚拟机搭建sentinel集群，然后使用wireshark抓包，这里有个技巧，wireshark抓包时，可以选择在虚拟机网卡上抓包。
